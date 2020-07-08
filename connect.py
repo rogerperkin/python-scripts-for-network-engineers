@@ -8,5 +8,9 @@ result = connection.send_command('sh ip int brief')
 
 print(result)
 
+connection.disconnect()
+
+
+
 
 
