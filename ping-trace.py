@@ -8,7 +8,7 @@ import time
 CURRENT_DIR = os.getcwd()
 START_TIME = time.time()
 MAX_THREADS = 5
-FILENAME = 'ips.txt'
+FILENAME = 'devices.txt'
 PING_COMMAND = 'ping -q -c 3 -W 1'
 TRACEROUTE_COMMAND = 'traceroute'
 
