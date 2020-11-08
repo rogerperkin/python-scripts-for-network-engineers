@@ -19,6 +19,9 @@ with open('devices.txt') as routers:
         print()
         print('-'*79)
 
+# Finally close the connection
+net_connect.disconnect()
+
 
 
 
