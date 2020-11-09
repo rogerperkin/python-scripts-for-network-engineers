@@ -19,6 +19,8 @@ hostname,device = hostname.split(" ")
 print ("Backing up " + device)
 
 filename = '/home/roger/python-scripts-for-network-engineers/backups/' + device + '.txt'
+# to save backup to same folder as script use below line and comment out above line 
+# filename = device + '.txt' 
 
 showrun = net_connect.send_command('show run')
 showvlan = net_connect.send_command('show vlan')
